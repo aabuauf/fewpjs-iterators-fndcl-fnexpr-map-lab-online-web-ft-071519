@@ -12,5 +12,12 @@ const tutorials = [
 ];
 
 const titleCased = () => {
+  for (let tutorial of tutorials) {
+    tutorial.map
+  }
   return tutorials
 }
+
+String.prototype.capitalize = function() {
+    return this.replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
+};
